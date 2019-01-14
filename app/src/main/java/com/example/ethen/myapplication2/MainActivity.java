@@ -128,11 +128,6 @@ public class MainActivity extends AppCompatActivity {
                                     handler.sendMessage(message);
                                 }
 
-                                @Override
-                                public void onDisconnected() {
-                                    System.exit(0);
-                                }
-
                             };
 
                     speechService.recognizeUsingWebSocket(recognizeOptions,
