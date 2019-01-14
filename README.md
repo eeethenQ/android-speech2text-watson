@@ -21,3 +21,5 @@ android speech2text app using ibm waston api
 </resources>
 ```
 where `{apikey}` and `{url}` are the values copied from the [official site](https://cloud.ibm.com/)
+
+1. Prepare the audio file and modify the path located in `app/src/main/java/com/example/ethen/myapplication2/MainActivity.java` line 109 and line 110
